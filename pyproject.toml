@@ -1,0 +1,22 @@
+[project]
+name = "devpost_redhat"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Edward", email = "edwardduong71311@gmail.com"},
+]
+dependencies = [
+    "fastapi[standard]>=0.115.2",
+    "dynaconf>=3.2.6",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
+
+[tool.pdm.scripts]
+start = "fastapi run src/devpost_redhat/main.py"
+dev = "fastapi dev src/devpost_redhat/main.py"
