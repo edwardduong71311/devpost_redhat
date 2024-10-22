@@ -12,10 +12,4 @@ COPY ./*.yaml /code/
 COPY ./pyproject.toml /code/pyproject.toml
 COPY ./src /code/src
 
-# Ollama
-RUN curl -fsSL https://ollama.com/install.sh | sh
-RUN ollama serve
-RUN ollama -v
-RUN ollama run llama3.2
-
 CMD ["pdm", "run", "start", "--port", "80"]

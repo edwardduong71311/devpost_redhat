@@ -29,3 +29,7 @@ U
 compose.yaml,2\7\2701071a1490f4576d914b0b84bc3185e0aa2854
 C
 docker-compose.yaml,e\f\ef8def03dc8f162799089e9b5f4321201c8810d5
+>
+src/Dockerfile,b\1\b1ac484b20625f94ee8fee74dce04369ea1760f1
+<
+DockerfileAI,a\1\a1c76f610671e5c068fca510bc52ff094c9f7cbb
