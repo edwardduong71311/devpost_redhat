@@ -2,7 +2,7 @@ FROM ollama/ollama:latest
 
 RUN mkdir /.ollama
 RUN chgrp -R 0 /.ollama && \
-    chmod -R g=u /.ollama \
+    chmod -R g=u /.ollama
 
 ENTRYPOINT ["ollama", "serve"]
 
