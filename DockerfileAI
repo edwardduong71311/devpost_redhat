@@ -1,4 +1,7 @@
 FROM ollama/ollama:latest
 
+RUN chgrp -R 0 /.ollama && \
+    chmod -R g=u /.ollama \
+
 ENTRYPOINT ["ollama", "serve"]
 
