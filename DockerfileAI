@@ -1,7 +1,4 @@
-FROM ubuntu:latest
+FROM ollama/ollama:latest
 
-RUN curl -fsSL https://ollama.com/install.sh | sh
-RUN ollama serve
-RUN ollama run llama3.2
+ENTRYPOINT ["ollama", "serve"]
 
-ENTRYPOINT ["ollama", "-v"]
