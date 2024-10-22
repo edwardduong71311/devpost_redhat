@@ -12,4 +12,4 @@ COPY ./*.yaml /code/
 COPY ./pyproject.toml /code/pyproject.toml
 COPY ./src /code/src
 
-CMD ["pdm", "run", "start", "--port", "80"]
+CMD ["pdm", "run", "start", "--port", "8080"]
