@@ -33,3 +33,5 @@ C
 src/Dockerfile,b\1\b1ac484b20625f94ee8fee74dce04369ea1760f1
 <
 DockerfileAI,a\1\a1c76f610671e5c068fca510bc52ff094c9f7cbb
+=
+run-ollama.sh,7\1\717e45f97d5b237a2af4445fac375c9e16b5275c
