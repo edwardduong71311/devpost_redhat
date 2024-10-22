@@ -12,12 +12,6 @@ N
 src/devpost_redhat/__init__.py,d\d\dd30054636da468c70b5b3e5cc20a73393a88365
 W
 'src/devpost_redhat/config/app_config.py,a\b\ab81175757c8a5353e9f0fc2ae943ca3186921c6
-W
-'src/devpost_redhat/config/settings.toml,6\f\6f048b8adf852cfd2364f39afdef7d703e8ce885
-=
-settings.toml,6\a\6a4db04aeaa878befd038f0ccdd454be9490a66c
-A
-settings-dev.toml,e\f\efad474882c5063afa88161164348a8b8f7bf8aa
 =
 settings.yaml,f\d\fdb844fae20beed9599ba015861beac3857bdf44
 A
@@ -31,3 +25,7 @@ A
 src/__init__.py,b\1\b141e8a708cfc0de96ab25c59ca83087cbddf7fa
 U
 %src/devpost_redhat/controller/user.py,7\e\7e08fc5303f4168516f7eed14d8281bcafeedd52
+<
+compose.yaml,2\7\2701071a1490f4576d914b0b84bc3185e0aa2854
+C
+docker-compose.yaml,e\f\ef8def03dc8f162799089e9b5f4321201c8810d5
