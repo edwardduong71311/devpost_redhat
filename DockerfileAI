@@ -4,5 +4,11 @@ RUN mkdir /.ollama
 RUN chgrp -R 0 /.ollama && \
     chmod -R g=u /.ollama
 
-ENTRYPOINT ["ollama", "serve"]
 
+COPY ./run-ollama.sh /tmp/run-ollama.sh
+WORKDIR /tmp
+RUN chmod +x run-ollama.sh \
+    && ./run-ollama.sh
+
+
+EXPOSE 11434
